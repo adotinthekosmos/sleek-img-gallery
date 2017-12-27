@@ -183,8 +183,11 @@ hr {
 }
 
 #content-container {
-	margin-top: 50px;
-	padding-top: 35px;
+	margin-top: 70px;
+	padding-top: 20px;
+	/*border-top-left-radius: 10px;
+	border-top-right-radius: 10px;*/
+	border-radius: 10px;
 
 	background: rgba(75,232,130,0.94);
 	background: -moz-linear-gradient(left, rgba(75,232,130,0.94) 0%, rgba(32,124,229,0.95) 72%, rgba(32,124,229,0.95) 100%);
@@ -198,6 +201,9 @@ hr {
 }
 
 #signature {
+	margin-top: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 	background: rgba(75,232,130,0.94);
 	background: -moz-linear-gradient(left, rgba(75,232,130,0.94) 0%, rgba(32,124,229,0.95) 72%, rgba(32,124,229,0.95) 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(75,232,130,0.94)), color-stop(72%, rgba(32,124,229,0.95)), color-stop(100%, rgba(32,124,229,0.95)));
